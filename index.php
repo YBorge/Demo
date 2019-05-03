@@ -4,7 +4,7 @@ session_start();
 if($_SESSION['username']){
 	header('location: ./WebPages/admin_login_success.php');
 } 
-// on git
+// on git pooja
 require_once("./header_index.php");
 require_once("./Connection/MyCon.php");
 require_once("./WebPages/function_library.php");
